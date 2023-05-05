@@ -4,26 +4,175 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-  <title>My Landing Page</title>
+  <title>My Portfolio</title>
 </head>
 
 <body>
   <header>
     <nav class="text-right">
       <ul>
-        <li> <a href="https://github.com/">Github</a></li>
-        <li> <a href="#">Portfolio</a></li>
-        <li> <a href="#contact">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="https://github.com/ima2132">Github</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
+  
+<!-- -------------------------------------------------------------------------------------------------------------------- -->
+<!-- about section -->
 
   <main>
-    <h1 class="text-center">Irene Akram</h1>
-    <figure>
-      <img src="./assets/images/image-1.png" alt="Graphic with Coming Soon text">
-      <figcaption class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</figcaption>
-    </figure>
+    <section id="about">
+      <h1 class="text-center">Irene Akram</h1>
+      <figure>
+        <img src="./assets/images/profile.jpg" alt="Irene Akram Profile Picture" width="200" height="200">
+        <figcaption class="text-center">Hi, I'm Irene. I'm an aspiring web developer looking for global opportunities in a seemingly digital world.</figcaption>
+      </figure>
+    </section>
+
+<!-- project section -->
+
+<!-- Horiseon -->
+
+    <section id="project">
+      <h2 class="text-center">Projects</h2>
+      <div class="project-container">
+          <div class="project-card">
+            <a href="https://ima2132.github.io/horiseon/">
+                <img src="./assets/images/project.jpg" alt="Project 1" class="project-image">
+                <h3>Horiseon</h3>
+              </a>
+          </div>
+
+ <!-- Password Generator -->
+
+          <div class="project-card">
+            <a href="#">
+              <img src="./assets/images/project.jpg" alt="Project 3" class="project-image">
+              <h3>Password Generator</h3>
+            </a>
+        </div>
+
+ <!-- API Code Quiz -->
+
+        <div class="project-card">
+          <a href="#">
+            <img src="./assets/images/project.jpg" alt="Project 4" class="project-image">
+            <h3>API Code Quiz</h3>
+          </a>
+        </div>
+
+ <!-- Work Day Scheduler -->
+
+        <div class="project-card">
+          <a href="#">
+            <img src="./assets/images/project.jpg" alt="Project 5" class="project-image">
+            <h3>Work Day Scheduler</h3>
+          </a>
+        </div>
+
+  <!-- Weather Dashboard -->
+
+        <div class="project-card">
+          <a href="#">
+            <img src="./assets/images/project.jpg" alt="Project 6" class="project-image">
+            <h3>Weather Dashboard</h3>
+          </a>
+        </div>
+
+<!-- Travel Hub (Project #1)-->
+
+        <div class="project-card">
+          <a href="https://savitamanchanda.github.io/Travel-Hub/">
+            <img src="./assets/images/project.jpg" alt="Project 7-8" class="project-image">
+            <h3>Travel Hub</h3>
+          </a>
+        </div>
+       
+ <!-- Professional README Generator-->
+
+        <div class="project-card">
+          <a href="#">
+            <img src="./assets/images/project.jpg" alt="Project 9" class="project-image">
+            <h3>Professional README Generator</h3>
+          </a>
+        </div>
+        
+ <!-- Team Profile Generator-->
+
+        <div class="project-card">
+          <a href="#">
+            <img src="./assets/images/project.jpg" alt="Project 10" class="project-image">
+            <h3>Team Profile Generator</h3>
+          </a>
+       
+ <!-- Note Taker-->
+
+ <div class="project-card">
+    <a href="#">
+      <img src="./assets/images/project.jpg" alt="Project 11" class="project-image">
+      <h3>Note Taker</h3>
+    </a>
+
+ <!-- Employee Tracker-->
+
+ <div class="project-card">
+    <a href="#">
+      <img src="./assets/images/project.jpg" alt="Project 12" class="project-image">
+      <h3>Employee Tracker</h3>
+    </a>
+
+ <!-- E-Commerce Back End-->
+
+ <div class="project-card">
+    <a href="#">
+      <img src="./assets/images/project.jpg" alt="Project 13" class="project-image">
+      <h3>E-Commerce Back End</h3>
+    </a>
+
+ <!-- Tech Blog-->
+
+ <div class="project-card">
+    <a href="#">
+      <img src="./assets/images/project.jpg" alt="Project 14" class="project-image">
+      <h3>Tech Blog</h3>
+    </a>
+
+ <!-- Just Read It! (Project #2)-->
+
+ <div class="project-card">
+    <a href="#">
+      <img src="./assets/images/project.jpg" alt="Project 15-16" class="project-image">
+      <h3>Just Read It!</h3>
+    </a>
+
+ <!-- Regex Tutorial-->
+
+ <div class="project-card">
+    <a href="#">
+      <img src="./assets/images/project.jpg" alt="Project 17" class="project-image">
+      <h3>Regex Tutorial</h3>
+    </a>
+
+ <!-- Social Network API-->
+
+ <div class="project-card">
+    <a href="#">
+      <img src="./assets/images/project.jpg" alt="Project 18" class="project-image">
+      <h3>Social Network API</h3>
+    </a>
+
+ <!-- React Portfolio (skipping Module #19 & 21)-->
+
+ <div class="project-card">
+    <a href="#">
+      <img src="./assets/images/project.jpg" alt="Project 20" class="project-image">
+      <h3>React Portfolio</h3>
+    </a>
+ <!-- -------------------------------------------------------------------------------------------------------------------- -->
+ 
+ <!-- Contact Section -->
     <section id="contact">
       <h2 class="text-center">Contact Me</h2>
       <form>
@@ -36,6 +185,10 @@
             <label class="text-right" for="email">Email:</label>
             <input type="text" id="email" name="user-email">
           </li>
+          <li>
+            <label class="text-right" for="message">Message:</label>
+            <textarea id="message" name="user-message"></textarea>
+          </li>
         </ul>
         <div class="text-center">
           <button type="submit">SEND</button>
@@ -44,9 +197,11 @@
     </section>
   </main>
 
+ <!-- -------------------------------------------------------------------------------------------------------------------- -->
+ <!-- footer -->
   <footer class="text-center">
-    © 2022 My New Website Productions 
+    &copy; 2023 Irene Akram
   </footer>
-    
+
 </body>
 </html>

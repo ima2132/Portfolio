@@ -4,13 +4,13 @@
     padding:0;  
   }
   
-  /* Element Selectors */
+  /* element Selectors */
   body {
     position: relative;
-    font-family: "Goudy Bookletter 1911", sans-serif;
+    font-family: 'Courier New', 'Courier New', Courier, monospace;
     font-size: 20px;
-    background-color: #FDF8F5;
-    color: #4F4846;
+    background-color: #008080;
+    color: #010081;
   }
   
   h1,
@@ -30,7 +30,7 @@
   
   a {
     text-decoration: none;
-    color: #FDF8F5;
+    color: #000000;
   }
   
   header,
@@ -38,19 +38,20 @@
     height: 60px;
     width: 100%;
     line-height: 60px;
-    background-color: #266150;
+    background-color: 
+    #008080;
   }
   
   header {
     position: fixed;
-    border-bottom: 10px solid #DDAF94;
+    border-bottom: 10px solid #008080;
   }
   
   footer {
     position: absolute;
     margin-top: 0;
     bottom: 0;
-    border-bottom: 10px solid #4F4846;
+    border-bottom: 10px solid #ff0081;
     color: #FDF8F5;    
   }
   
@@ -66,8 +67,8 @@
   section {
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
-    border-top: 3px solid #DDAF94;
-    background-color:  #E8CEBF;
+    border-top: 3px solid #ff0081;
+    background-color:  #c3c3c3;
   }
   
   form {
@@ -75,7 +76,7 @@
     margin: 0 auto;
     width: 500px;
     padding: 10px;
-    border: 5px solid #DDAF94;
+    border: 5px solid #010081;
     border-radius: 20px;
   }
   
@@ -99,7 +100,7 @@
   button {
     height: 40px;
     width: 120px;
-    background-color: #4F4846;
+    background-color: #ff0081;
     color: #FDF8F5;
   }
    
@@ -112,3 +113,83 @@
     text-align: right;
   }
   
+
+
+#projects {
+    /* Set a minimum height so the section has some space even if it has no content */
+    min-height: 100vh;
+  }
+  
+  .project-container {
+    /* Use flexbox to display the projects in a row on larger screens */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project {
+    /* Set the width of each project to make them equally spaced */
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  /* Use media queries to change the layout on smaller screens */
+  @media (max-width: 768px) {
+    .project-container {
+      /* Display the projects in a column on smaller screens */
+      flex-direction: column;
+    }
+  
+    .project {
+      /* Make the projects take up the full width of the container */
+      width: 100%;
+    }
+  }
+
+// And here's the CSS code to make the projects display in rows of 4:
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-card {
+    width: calc(25% - 16px);
+    margin-bottom: 32px;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .project-card {
+      width: calc(33.33% - 16px);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .project-card {
+      width: calc(50% - 16px);
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .project-card {
+      width: 100%;
+    }
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-right: 20px; /* This adds some space between the image and the text */
+      }
+      
+      .project-image {
+        width: 120px;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+        
+
