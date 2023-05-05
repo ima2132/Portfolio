@@ -4,7 +4,7 @@
     padding:0;  
   }
   
-  /* element Selectors */
+  /* Element Selectors */
   body {
     position: relative;
     font-family: 'Courier New', 'Courier New', Courier, monospace;
@@ -67,18 +67,20 @@
   section {
     margin-bottom: 0;
     padding: 20px 10px 40px 10px;
-    border-top: 3px solid #ff0081;
+    border-top: 3px solid transparent;
     background-color:  #c3c3c3;
   }
   
+
   form {
     /* Center the form on the page */
     margin: 0 auto;
     width: 500px;
     padding: 10px;
     border: 5px solid #010081;
-    border-radius: 20px;
+    border-radius: 20px; 
   }
+  
   
   label {
     display: inline-block;
@@ -104,77 +106,63 @@
     color: #FDF8F5;
   }
    
-  /* Class Selectors */
-  .text-center {
+
+/* Class Selectors */
+.text-center {
     text-align: center;
+    justify-content: center;
   }
   
   .text-right {
-    text-align: right;
+    text-align: center;
   }
-  
 
-
-#projects {
-    /* Set a minimum height so the section has some space even if it has no content */
-    min-height: 100vh;
-  }
-  
   .project-container {
-    /* Use flexbox to display the projects in a row on larger screens */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  
-  .project {
-    /* Set the width of each project to make them equally spaced */
-    width: calc(33.33% - 10px);
-    margin-bottom: 20px;
-  }
-  
-  /* Use media queries to change the layout on smaller screens */
-  @media (max-width: 768px) {
-    .project-container {
-      /* Display the projects in a column on smaller screens */
-      flex-direction: column;
-    }
-  
-    .project {
-      /* Make the projects take up the full width of the container */
-      width: 100%;
-    }
-  }
-
-// And here's the CSS code to make the projects display in rows of 4:
-.project-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-auto-rows: minmax(0, 1fr);
+    gap: 20px;
+    margin: auto;
+    max-width: 1200px;
+    background-color: transparent;
   }
   
   .project-card {
-    width: calc(25% - 16px);
-    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; 
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: transparent;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  @media screen and (max-width: 992px) {
-    .project-card {
-      width: calc(33.33% - 16px);
+  .project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .project-image {
+      height: 150px;
+    }
+  
+    .project-card p {
+      font-size: 0.8rem;
     }
   }
   
-  @media screen and (max-width: 768px) {
-    .project-card {
-      width: calc(50% - 16px);
-    }
-  }
-  
-  @media screen and (max-width: 576px) {
-    .project-card {
-      width: 100%;
-    }
-  }
   
   img {
     max-width: 100%;
@@ -183,13 +171,5 @@
     margin-right: 20px; /* This adds some space between the image and the text */
       }
       
-      .project-image {
-        width: 120px;
-        height: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      }
-        
 
+      
