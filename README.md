@@ -13,6 +13,7 @@ Advanced CSS Challenge: Professional Portfolio
 ## Description
 For this challenge, I was tasked with creating a portfolio using HTML and CSS. 
 
+<<<<<<< HEAD
 There are several motives behind this project. It marks the implementation of  HTML and CSS and allows one to understand how to uniquely create their own portfolio showcasing the beginning of their front-end development skills. The main objective of this challenge is to demonstrate the fundamental comprehension of HTML and CSS. 
 
 ## User Story
@@ -62,3 +63,6 @@ Please refer to the LICENSE listed in the repo.
 
 ## Deployed URL
 https://ima2132.github.io/Portfolio/ 
+=======
+There are several motives behind this project. It marks the implementation of  HTML and CSS and allows one to understand how to uniquely create their own portfolio -- showcasing the beginning of their front-end development skills. The main objective of this challenge is to demonstrate the fundamental comprehension of HTML and CSS. 
+>>>>>>> 40163b2f20146caee1a9c24a1c2131b2551328c8
