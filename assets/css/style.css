@@ -165,7 +165,7 @@
     }
   }
   
-  
+  /* inserted profile picture and shifted it to the left for styling/fitting project folder purposes */ 
   img {
     max-width: 100%;
     height: auto;
