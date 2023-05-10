@@ -73,7 +73,6 @@
   
 
   form {
-    /* Center the form on the page */
     margin: 0 auto;
     width: 500px;
     padding: 10px;
@@ -107,7 +106,7 @@
   }
    
 
-/* Class Selectors */
+/* class selectors */
 .text-center {
     text-align: center;
     justify-content: center;
@@ -168,7 +167,7 @@
     max-width: 100%;
     height: auto;
     float: left;
-    margin-right: 20px; /* This adds some space between the image and the text */
+    margin-right: 20px; 
       }
       
 
