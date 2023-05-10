@@ -6,6 +6,7 @@
 - [Acceptance Criteria](#acceptance-criteria)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [License](#license)
 - [Deployed URL](#deployed-url)
 
@@ -58,6 +59,15 @@ N/A
 To learn more about me, you can click the deployed link and browse through deployed applications I have done. My GitHub and Linkedin are also listed. 
 
 If you would like to contact me for more information, please click the "Contact" tab and provide your name, email, and message to get in touch. 
+
+## Screenshots 
+
+The following images show my portfolio:
+
+<img width="1438" alt="Screen Shot 2023-05-10 at 12 55 36 AM" src="https://github.com/ima2132/Portfolio/assets/117132129/8a1113c6-df97-4be5-9023-6e03029efc4f">
+
+<img width="1438" alt="Screen Shot 2023-05-10 at 12 52 35 AM" src="https://github.com/ima2132/Portfolio/assets/117132129/b8e29bd2-5bb6-4088-8b07-fa1d96590940">
+
 
 ## License 
 Please refer to the LICENSE listed in the repo. 
