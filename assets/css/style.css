@@ -97,7 +97,8 @@
     vertical-align: top;
     height: 60px;
   }
-    
+  
+  /* styled the "contact me" button pink */
   button {
     height: 40px;
     width: 120px;
@@ -107,6 +108,7 @@
    
 
 /* class selectors */
+
 .text-center {
     text-align: center;
     justify-content: center;
@@ -115,7 +117,7 @@
   .text-right {
     text-align: center;
   }
-
+/* made the project containers into a grid layout in columns of 4 */
   .project-container {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
