@@ -2,7 +2,6 @@
 
 ## Table of Contents 
 - [Description](#description)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
 - [License](#license)
@@ -13,9 +12,6 @@ For this challenge, I was tasked with creating a portfolio using HTML and CSS.
 There are several motives behind this project. It marks the implementation of  HTML and CSS and allows one to understand how to uniquely create their own portfolio showcasing the beginning of their front-end development skills. 
 
 The main objective of this challenge is to demonstrate the fundamental comprehension of HTML and CSS along with showcasing deployed projects you have created.  
-
-## Installation 
-N/A
 
 ## Usage
 To learn more about me, you can click the deployed link and browse through deployed applications I have done. My GitHub and Linkedin are also listed. 
